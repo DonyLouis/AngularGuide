@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { UserProfileComponent } from './user-profile/user-profile.component';
-import { UserProfile2Component } from './user-profile2/user-profile2.component';
+import { UserProfileComponent } from './lesson1/user-profile/user-profile.component';
+import { UserProfile2Component } from './lesson1/user-profile2/user-profile2.component';
 
 @Component({
     selector: 'app-root',
