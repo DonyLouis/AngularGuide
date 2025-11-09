@@ -1,0 +1,11 @@
+<p><button (click)="changeSignals()">Signalsを変更</button></p>
+<p><button (click)="effectRef.destroy()">副作用をクリア</button></p>
+<p>数字：{{count()}}</p>
+<p>文字列：{{name()}}</p>
+<p>真偽値：{{isActive()}}</p>
+<p>オブジェクト：<br>
+    <span>{{obj().name}}</span><br>
+    <span>{{obj().age}}</span>
+</p>
+
+<p>計算：{{total()}}</p>
